@@ -22,6 +22,6 @@ public class ServiceHiApplication {
 
     @RequestMapping
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am  from port: " + port + " use jrebel2";
+        return "hi " + name + " ,i am  from port: " + port + " use jrebel1";
     }
 }
